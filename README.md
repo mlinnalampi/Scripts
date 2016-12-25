@@ -2,6 +2,8 @@
 
 Some random scripts which I have written.
 
+##Joulu.py
+A little christmas -themed script. It began as a thought about how to define a christmas tree mathematically and this was one idea. Not the shortest one as a program, but I think it's nice as a mathematical formula for a tree. The first for -loop can run n*3 times, 12 happens to be a good example.
 
 
 ##Dyfi
