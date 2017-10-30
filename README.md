@@ -2,13 +2,18 @@
 
 Some random scripts and small code snippets which I have written.
 
+##LFSR Stream Cipher
+
+We were introduced to Stream Ciphers in "Cryptography and Data security" -course in Aalto and I decided to implement a simple Stream cipher as part of learning. The method takes initial values in n, and puts size bits of data into res. It uses xoring previous 5th and 3rd value of n to create new values.
+
+
 ## SumOfTwo
 
 This is a small snippet of python which I wrote to compare if using hashtables (=dicts in python) to find two list items which sum to target number is significantly faster than the naive way. Seems that the naive way may be even faster at some points than the dict, but it may also be orders of magnitude worse. This is quite the assumed result. This is also my first time timing function call times in python, but that's pretty simple.
 
 
 ## Joulu.py
-A little christmas -themed script. It began as a thought about how to define a christmas tree mathematically and this was one idea. Not the shortest one as a program, but I think it's nice as a mathematical formula for a tree. The first for -loop can run n*3 times, 12 happens to be a good example.
+A little christmas -themed script. It began as a thought about how to define a christmas tree mathematically and this was one idea. Not the shortest one as a program, but I think it's nice as a mathematical formula for a tree. The first for -loop can run n\*3 times, 12 happens to be a good example.
 
 
 ## Dyfi
