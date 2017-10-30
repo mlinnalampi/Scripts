@@ -2,7 +2,7 @@
 
 Some random scripts and small code snippets which I have written.
 
-##LFSR Stream Cipher
+## LFSR Stream Cipher
 
 We were introduced to Stream Ciphers in "Cryptography and Data security" -course in Aalto and I decided to implement a simple Stream cipher as part of learning. The method takes initial values in n, and puts size bits of data into res. It uses xoring previous 5th and 3rd value of n to create new values.
 
