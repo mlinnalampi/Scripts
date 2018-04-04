@@ -1,6 +1,8 @@
 # A small script to list and download all pdf submissions from Hacker news
 
 Build with:
+
+
 `docker build -t hackernews .`
 
 
